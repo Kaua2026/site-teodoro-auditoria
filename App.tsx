@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { 
   Shield, 
-  Activity, 
+  Activity,
   Magnet, 
   CheckCircle2, 
   XCircle, 
@@ -238,7 +238,7 @@ Dúvida: ${formData.message}`;
 
 const App: React.FC = () => {
   const handleGeneralWA = (section: string) => {
-    const msg = `Olá! Vi o diferencial sobre ${section} no site da Teodoro e preciso de uma análise técnica urgente.`;
+    const msg = "Olá, Teodoro Auditoria. Preciso de uma Análise Pericial de Elite AGORA para bloquear abusos bancários e proteger meu patrimônio.";
     window.open(getWhatsAppLink(msg), '_blank');
   };
 
@@ -472,7 +472,7 @@ const App: React.FC = () => {
               <div className="space-y-2">
                 <FAQItem 
                   question="A análise técnica é válida para contratos antigos?" 
-                  answer="Sim. Podemos auditar contratos ativos e até mesmo contratos já quitados nos últimos 10 anos. A análise técnica identifica cobranças indevidas retroativas que geram direito à restituição em dobro conforme o CDC." 
+                  answer="Sim. Podemos auditar contratos ativos e até mesmo contratos já quitados nos últimos 05 anos. A análise técnica identifica cobranças indevidas retroativas que geram direito à restituição em dobro conforme o CDC." 
                 />
                 <FAQItem 
                   question="Existe risco do banco cortar meu crédito ou score?" 
