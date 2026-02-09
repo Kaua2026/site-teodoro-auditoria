@@ -88,7 +88,7 @@ const Header: React.FC = () => {
   }, []);
 
   const handleCTAClick = () => {
-    const msg = "Olá Teodoro Auditoria! Desejo realizar uma análise técnica de abusividade bancária agora.";
+    const msg = "Olá, Teodoro Auditoria. Preciso de uma Análise Pericial de Elite AGORA para bloquear abusos bancários e proteger meu patrimônio.";
     window.open(getWhatsAppLink(msg), '_blank');
     setMobileMenuOpen(false);
   };
